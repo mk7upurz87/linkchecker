@@ -24,12 +24,12 @@ Mainly used for double checking that your site has not exposed broken links.
 
 ## Requirements
 
-    LinkChecker requires Ruby 1.9.3 or newer
+    Ruby 1.9.3 or newer
 
 ## Installation
 
     clone this repository
-    navigate into the top directory
+    then navigate into the top directory
     
 execute:
 
@@ -40,7 +40,6 @@ execute:
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Make sure you have tests, and they pass! (`rake`)
+3. Commit your changes (`git commit -am '<insert message about commit>'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
