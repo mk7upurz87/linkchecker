@@ -6,13 +6,13 @@ Mainly used for double checking that your site has not exposed broken links.
 
 # Features:
     
-    ## Currently
+## Currently
     
     Http/Https
     Asynchronous
     Individual output files for:  Errors, Checked links, All links
     
-    ## Future
+## Future
     
     Oauth
     Define html tags to search the page for
