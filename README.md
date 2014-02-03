@@ -1,4 +1,4 @@
-linkchecker
+LinkChecker
 ===========
 
 Written in Ruby, takes in configuration options to crawl a given URL and asynchronously hits each URL found on the page.
@@ -18,11 +18,6 @@ Mainly used for double checking that your site has not exposed broken links.
     Define html tags to search the page for
     Specify threshold for number of concurrent threads
     
-
-# LinkChecker
-
-Starts on a given page, finds all links on the page, ensure they resolve, and recurses if the link is underneath the starting url. Intended primarily for double checking that your site has no horrible error pages to be exposed to the user by clicking on a link. 
-
 ## Current Usage
 
     ruby linkchecker.rb root_url
